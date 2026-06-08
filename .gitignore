@@ -1,0 +1,22 @@
+# Never commit local Claude Code settings — they often contain secrets
+# (API keys, host IPs) in permissions/env.
+settings.local.json
+**/settings.local.json
+
+# Runtime state produced by the hook (per-session counters)
+state/
+**/memck_*.count
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor / OS cruft
+.DS_Store
+.vscode/
+.idea/
+
+# Local AI-assistant scaffolding (not for the repo)
+CLAUDE.md
+.claude/
