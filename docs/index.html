@@ -8,7 +8,7 @@
     <meta property="og:title" content="claude-memory-checkpoint: Long chats summarize themselves into project memory" />
     <meta property="og:description" content="If you run several Claude Code chats about one project, each re-reads files and re-derives the same context, burning tokens. This hook counts tool calls and, past a threshold, has Claude drop a tight..." />
     <meta property="og:type" content="website" />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Ctext%20y%3D%270.9em%27%20font-size%3D%2790%27%3E%F0%9F%A7%A0%3C/text%3E%3C/svg%3E" />
+    <link rel="icon" type="image/svg+xml" href="logo.svg" />
     <style>
 :root {
   --bg: #0b0f14; --panel: #11161d; --border: #1f2833; --text: #e6edf3;
@@ -103,7 +103,7 @@ a.appcard .meta { display: block; margin-top: 0.6rem; font-size: 0.78rem; color:
       </nav>
       <header class="hero">
         <div class="pills"><span class="pill accent">Claude Code hook</span><span class="pill">Stable</span></div>
-        <h1>claude-memory-checkpoint<span class="dot">.</span></h1>
+        <h1><img src="logo.svg" alt="" width="40" height="40" style="vertical-align: -6px; margin-right: 0.35rem; border-radius: 22%" />claude-memory-checkpoint<span class="dot">.</span></h1>
         <p class="lead">Long chats summarize themselves into project memory.</p>
         <p class="desc">If you run several Claude Code chats about one project, each re-reads files and re-derives the same context, burning tokens. This hook counts tool calls and, past a threshold, has Claude drop a tight summary of the chat into project memory. Parallel and future chats load that instead.</p>
         <div class="actions">
