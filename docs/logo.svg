@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect x="0" y="0" width="512" height="512" rx="123" ry="123" fill="#0B0D10"/>
+  <g id="icon">
+    <!-- Bookmark body: bold ribbon silhouette with a deep V-notch at the bottom -->
+    <path d="M 158 90
+             L 354 90
+             L 354 422
+             L 256 332
+             L 158 422
+             Z"
+          fill="#38BDF8"/>
+    <!-- Folded corner detail: solid off-white triangle, signals a marked/turned page (checkpoint) rather than a plain favorite/bookmark -->
+    <path d="M 354 90 L 354 198 L 246 90 Z" fill="#F2F0EA"/>
+  </g>
+</svg>
