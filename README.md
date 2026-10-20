@@ -1,5 +1,9 @@
 # claude-memory-checkpoint
 
+<p align="center">
+  <img src="docs/logo.svg" alt="claude-memory-checkpoint logo" width="128" />
+</p>
+
 Periodically summarize a long [Claude Code](https://github.com/anthropics/claude-code) chat into project memory, so your other chats do not re-derive the same context.
 
 If you run several chats about the same project, each one re-reads files and re-discovers context, burning tokens. This hook counts tool calls in a chat and, once it crosses a threshold, asks Claude to drop a tight summary of what the chat accomplished into your auto-memory. Parallel and future chats then load that summary instead of rebuilding it from scratch.
